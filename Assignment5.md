@@ -7,13 +7,12 @@
 > Instructor: Dr. Behrouz Far (far@ucalgary.ca)<br/>
 > Department of Electrical and Software Engineering<br/>
 > University of Calgary<br/>
-
 > **Summary:**
 > - Install a reliability assessment (reliability growth and reliability demonstration chart) tool.
 > - Run the tool and feed the provided data into it.
 > - Display and discuss the results.
 
-**Due Date: Check D2L for the submission deadline.**
+> **Due Date:** Check D2L for the submission deadline.
 
 # 1 INTRODUCTION
 
