@@ -125,7 +125,7 @@ Submit the results for part 1 and part 2.
 
 ## 5.1 Lab report (100%)
 
-Students will be required to submit a report on their work in the lab as a group. To be consistent, please use the template file “Assignment5-ReportTemplate.md”. If desired, feel free to rename the sections, as long as the headings are still descriptive and accurate.
+Students will be required to submit a report on their work in the lab as a group. To be consistent, please use the template file `Assignment5-ReportTemplate.md`. If desired, feel free to rename the sections, as long as the headings are still descriptive and accurate.
 
 A portion of the grade for the lab report will be allocated to organization and clarity. The report marking scheme is as follows:
 
