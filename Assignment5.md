@@ -28,13 +28,13 @@ Both will be practiced in this lab.
 
 ## 2.1 OBJECTIVES
 
-The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as CASRE, and create plots of failure rate and reliability of SUT.
+The purpose of the first part of this assignment is to give students hands-on experience in assessing the effectiveness of their test suites created in assignments 2 and 3 using mutation testing. To do this, students will need to create mutants (faulty versions) of the SUT, and then run their test suite against the mutants to determine if their test suite can accurately distinguish (kill!) mutants.
 
-After completing this part, students will:
+After completing part 1, students will:
 
-- gain an understanding of what reliability growth testing is and why it is useful.
-- be able to measure the failure rate, MTTF and reliability of the SUT through analyzing the test data.
-- become familiar with the features and usage of a reliability growth testing tool.
+- Gain an understanding of what mutation testing is and why it is useful
+- Be able to measure the mutation score of their test suites in order to analyze the results
+- Become familiar with the use of a mutation testing tool
 
 ## 2.2 TESTING TOOLS
 
@@ -45,7 +45,6 @@ The testing tool to be used in this part, is `C-SFRAT` (an open source software 
 The system to be tested for this part is a hypothetical system and its failure data is attached ([failure-data-a5.zip](failure-data-a5.zip)). 
 
 **Note**:
-  - If you want to use CASRE you <mark>may need to change the dataset </mark>. 
   - Read readme.txt in failure-data-a5.zip to learn about the dataset format
 
 ## 2.4 FAMILIARIZATION
