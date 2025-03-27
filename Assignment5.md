@@ -28,7 +28,7 @@ Both will be practiced in this lab.
 
 ## 2.1 OBJECTIVES
 
-The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as C-SFRAT , and create plots of failure rate and reliability of SUT.
+The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as `C-SFRAT`, and create plots of failure rate and reliability of SUT.
 
 After completing this part, students will:
 
@@ -48,25 +48,23 @@ The system to be tested for this part is a hypothetical system and its failure d
 
 ## 2.4 FAMILIARIZATION
 
-## 2.4.1 Alternative: INSTALL C-SFRAT
+## 2.4.1 INSTALL `C-SFRAT`
 
-1. Get C-SFRAT binary from [GitHub](https://github.com/LanceFiondella/C-SFRAT/releases/tag/v1.0). There are a Windows and a Linux executable. Download and unzip the appropriate version on your system.
+1. Get `C-SFRAT` binary from [GitHub](https://github.com/LanceFiondella/C-SFRAT/releases/tag/v1.0). There are a Windows and a Linux executable. Download and unzip the appropriate version on your system.
 2. Run and verify its functionalities.
 
 ## 2.5  **INSTRUCTIONS**
 
-### 2.5.1 Running C-SFRAT
+### 2.5.1 Running `C-SFRAT`
 
-The Covariate Software Failure and Reliability Assessment Tool (C-SFRAT) is an open source application that applies covariate software reliability models to help guide model selection and test activity allocation.
+The Covariate Software Failure and Reliability Assessment Tool (`C-SFRAT`) is an open source application that applies covariate software reliability models to help guide model selection and test activity allocation.
 
-1. Run C-SFRAT.exe for Windows  
-2. Import failure data
-3. Select a set of models that would provide the best fit for the project data using model ranking
-4. Select the range of useful data using Laplace or other tests
-5. Display time-between-failures, failure intensity and reliability graphs
-6. Discuss the acceptable range of failure rate for the test data
+1. Install the tool.
+2. Load the provided data into the tool.
+3. Use the tool's features to analyze the data and generate relevant reliability metrics and graphs.
+4. Interpret the results and discuss the reliability of the system based on the generated metrics and graphs.
 
-To more information about the input format and features of the tool, you can read [A covariate software tool to guide test activity allocation](https://www.sciencedirect.com/science/article/pii/S2352711021001588)
+For more information about the input format and features of the tool, you can read [A covariate software tool to guide test activity allocation](https://www.sciencedirect.com/science/article/pii/S2352711021001588)
 
 ![](./media/c-sfrat.png)
 
@@ -76,7 +74,7 @@ To more information about the input format and features of the tool, you can rea
 
 2. Software Failure and Reliability Assessment Tool (SFRAT): [https://github.com/LanceFiondella/srt.core](https://github.com/LanceFiondella/srt.core)
 
-# 3 Part 2: ASSESSMENT USING RELIABILITY DEMIONSTRATION CHART
+# 3 Part 2: ASSESSMENT USING RELIABILITY DEMONSTRATION CHART
 
 ## 3.1 OBJECTIVES
 
@@ -86,14 +84,14 @@ We usually use RDC when failure data is limited to a few failures, time of failu
 
 After completing this part, students will:
 
-- be able to decide upon adequacy of testing for a given MTTF of the SUT through plotting thetest data.
-- become familiar with the features and usage of an RDCtool.
+- be able to decide upon adequacy of testing for a given MTTF of the SUT through plotting the test data.
+- become familiar with the features and usage of an RDC tool.
 
 ## 3.2 TESTING TOOLS
 
 In this assignment, you will use the following tool to analyze the test data provided.
 
--  RDC-11 (an EXCEL worksheet and macro). 
+-  RDC-11 (an Excel worksheet and macro).
 
 ## 3.3 SYSTEM UNDER TEST
 
@@ -101,13 +99,13 @@ The system to be tested for this part is a hypothetical system and its failure d
 
 ## 3.4 FAMILIARIZATION
 
-### 3.4.1 INSTALL RDC (**Suggestion**)
+### 3.4.1 INSTALL RDC
 
-1. Get Reliability-Demonstration-Chart.xls and its manual RDC-xls-Overview.pdf for the attachemnt OR download it from the [Sourceforge.net](https://sourceforge.net/projects/rdc/).
+1. Get Reliability-Demonstration-Chart.xls and its manual RDC-xls-Overview.pdf for the attachment OR download it from the [Sourceforge.net](https://sourceforge.net/projects/rdc/).
 2. Open the excel sheet and verify that it works by setting various risk factors, i.e. check whether the right chart will be generated.
 3. Read the document explaining its functionality.
 
-![](install-rdc.png) 
+![RDC](./media/install-rdc.png) 
 
 ### 3.4.2 INSTRUCTIONS
 
