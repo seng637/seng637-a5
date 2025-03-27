@@ -13,7 +13,7 @@
 > - Run the tool and feed the provided data into it.
 > - Display and discuss the results.
 
-**Due Date: TBD**
+**Due Date: Check D2L for the submission deadline.**
 
 # 1 INTRODUCTION
 
@@ -55,15 +55,18 @@ The system to be tested for this part is a hypothetical system and its failure d
 1. Get C-SFRAT binary from [GitHub](https://github.com/LanceFiondella/C-SFRAT/releases/tag/v1.0). There are a Windows and a Linux executable. Download and unzip the appropriate version on your system.
 2. Run and verify its functionalities.
 
-
 ## 2.5  **INSTRUCTIONS**
 
 ### 2.5.1 Running C-SFRAT
 
-The Covariate Software Failure and Reliability Assessment Tool (C-SFRAT) is an open source application that applies covariate software reliability models to help guide model selection and test activity allocation. 
+The Covariate Software Failure and Reliability Assessment Tool (C-SFRAT) is an open source application that applies covariate software reliability models to help guide model selection and test activity allocation.
 
 1. Run C-SFRAT.exe for Windows  
-2. Execute steps 2-6 same as 2.5.1
+2. Import failure data
+3. Select a set of models that would provide the best fit for the project data using model ranking
+4. Select the range of useful data using Laplace or other tests
+5. Display time-between-failures, failure intensity and reliability graphs
+6. Discuss the acceptable range of failure rate for the test data
 
 To more information about the input format and features of the tool, you can read [A covariate software tool to guide test activity allocation](https://www.sciencedirect.com/science/article/pii/S2352711021001588)
 
@@ -108,7 +111,7 @@ The system to be tested for this part is a hypothetical system and its failure d
 
 ![](install-rdc.png) 
 
-**INSTRUCTIONS**
+### 3.4.2 INSTRUCTIONS
 
 1. Make yourself familiar with the RDC. Try to understand how it works. Vertical axis is failure number (n), horizontal axis is normalized failure data (Tn), i.e., failure time divided by MTTF.
 1. How to use RDC? You need to input the failure data (failure number and failure time); identify the target MTTF and anticipated confidence levels; and draw the failure points on the graph and analyze the trend. Consult with the examples in the lecture slides and RDC manual.
