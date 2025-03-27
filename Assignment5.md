@@ -67,7 +67,7 @@ For more information about the input format and features of the tool, you can re
 
 ![](./media/c-sfrat.png)
 
-**Note:** If none of the above mentioned tools work for you, try to find other tools that may work.
+**Note:** If the tools mentioned above do not work for you, please look for alternative tools that may be suitable.
 
 1. Software Defect Estimation Tool (SweET): [https://github.com/LanceFiondella/SwEET](https://github.com/LanceFiondella/SwEET)
 
@@ -119,7 +119,7 @@ The system to be tested for this part is a hypothetical system and its failure d
 Submit the results for part 1 and part 2.
 
 1. Document the results (plot/diagrams as well as explanation of each).
-2. Comparethe results of Part1 and Part 2 and justify the case that each technique can be used.
+2. Compare the results of Part1 and Part 2 and justify the case that each technique can be used.
 
 # 5 Evaluation Criteria:
 
