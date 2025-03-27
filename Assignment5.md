@@ -4,12 +4,9 @@
 
 > **Software Reliability Assessment**
 
-  Instructors: 
->   -   Somayeh Modaberi (somayeh.modaberi@ucalgary.ca)  
-
-> Department of Electrical and Computer Engineering
-
-> University of Calgary
+> Instructor: Dr. Behrouz Far (far@ucalgary.ca)<br/>
+> Department of Electrical and Software Engineering<br/>
+> University of Calgary<br/>
 
 > **Summary:**
 > - Install a reliability assessment (reliability growth and reliability demonstration chart) tool.
@@ -31,7 +28,7 @@ Both will be practiced in this lab.
 
 ## 2.1 OBJECTIVES
 
-The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as CASRE or SRTAT, and create plots of failure rate and reliability of SUT.
+The purpose of this assignment is to give students hands-on experience on assessing the reliability of a hypothetical system given its failure data collected during integration testing. To do this, students will need to install a reliability growth assessment tool, such as CASRE, and create plots of failure rate and reliability of SUT.
 
 After completing this part, students will:
 
@@ -41,11 +38,7 @@ After completing this part, students will:
 
 ## 2.2 TESTING TOOLS
 
-The testing tool to be used in this part, is 
-- START (open source, developed by Dr. Far's Lab, running on various OS including 32bit and 64bit Windows and Linux). 
- **OR** 
-- C-SFRAT (an open source software developed by Python). 
-
+The testing tool to be used in this part, is `C-SFRAT` (an open source software developed by Python). 
 
 ## 2.3 SYSTEM UNDER TEST
 
@@ -57,35 +50,15 @@ The system to be tested for this part is a hypothetical system and its failure d
 
 ## 2.4 FAMILIARIZATION
 
-### 2.4.1 INSTALL STRAT
-
-1. Get SRTAT-SRE-tool.zip.
-2. It is a Java package that has 4 variations for different operating systems. Install the appropriate version on your system.
-3. Run and verify its functionalities.
-
-
-### 2.4.3 Alternative: INSTALL C-SFRAT (**Suggestion** )
+## 2.4.1 Alternative: INSTALL C-SFRAT 
 
 1. Get C-SFRAT binary from [GitHub](https://github.com/LanceFiondella/C-SFRAT/releases/tag/v1.0). There are a Windows and a Linux executable. Download and unzip the appropriate version on your system.
 2. Run and verify its functionalities.
 
 
 ## 2.5  **INSTRUCTIONS**
-### 2.5.1 Running SRTAT
 
-Software Reliability and Testing Analysis Tool.
-
-1. Run SRTAT
-2. Import failure data
-3. Select a set of models that would provide the best fit for the project data using model ranking
-4. Select the range of useful data using Laplace or other tests
-5. Display time-between-failures, failure intensity and reliability graphs
-6. Discuss the acceptable range of failure rate for the test data
-
-![](./media/running-srtat.png)
-
-
-### 2.5.2 Running C-SFRAT
+### 2.5.1 Running C-SFRAT
 
 The Covariate Software Failure and Reliability Assessment Tool (C-SFRAT) is an open source application that applies covariate software reliability models to help guide model selection and test activity allocation. 
 
@@ -117,10 +90,10 @@ After completing this part, students will:
 
 ## 3.2 TESTING TOOLS
 
-In this assignment, you will use the following tools to analyze the test data provided.
+In this assignment, you will use the following tool to analyze the test data provided.
 
--  SRTAT **OR** 
 -  RDC-11 (an EXCEL worksheet and macro). 
+
 ## 3.3 SYSTEM UNDER TEST
 
 The system to be tested for this part is a hypothetical system and its failure data is attached([failure-data-a5.zip](failure-data-a5.zip)).  You may need to change the dataset format.
@@ -134,18 +107,6 @@ The system to be tested for this part is a hypothetical system and its failure d
 3. Read the document explaining its functionality.
 
 ![](install-rdc.png) 
-
-
-### 3.4.2 Alternative: INSTALL SRTAT 
-
-Install SRTAT(as in 2.4.2, RDC is included in SRTAT tool as an option tab)
-
-![](./media/install-srtat.png)
-
-1. Get SRTAT-SRE-tool.zip.
-2. It is a Java package that has 4 variations for different operating systems. Install the appropriate version on your system.
-3. Run and verify its functionalities.
-
 
 **INSTRUCTIONS**
 
