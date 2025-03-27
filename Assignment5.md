@@ -146,9 +146,3 @@ A portion of the grade for the lab report will be allocated to organization and 
 | **Other (15)**                                                                                               |    |
 | Comparison of the results with the Part 1                                                                | 10 |
 | A discussion on similarity and difference of the two techniques. Any lessons learned in this lab?        | 5  |
-
-# 6 REFERENCES
-
-1. Open Channel Foundation: [http://www.openchannelsoftware.org/discipline/Reliability_Analysis](http://www.openchannelsoftware.org/discipline/Reliability_Analysis)
-
-2. ReliaSoft (commercial software): [http://www.reliasoft.com/products.htm](http://www.reliasoft.com/products.htm)
