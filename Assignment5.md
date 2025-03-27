@@ -38,18 +38,17 @@ After completing part 1, students will:
 
 ## 2.2 TESTING TOOLS
 
-The testing tool to be used in this part, is `C-SFRAT` (an open source software developed by Python). 
+The testing tool to be used in this part, is `C-SFRAT` (an open source software developed by Python).
 
 ## 2.3 SYSTEM UNDER TEST
 
 The system to be tested for this part is a hypothetical system and its failure data is attached ([failure-data-a5.zip](failure-data-a5.zip)). 
 
-**Note**:
-  - Read readme.txt in failure-data-a5.zip to learn about the dataset format
+**Note**: Read readme.txt in `failure-data-a5.zip` to learn about the dataset format
 
 ## 2.4 FAMILIARIZATION
 
-## 2.4.1 Alternative: INSTALL C-SFRAT 
+## 2.4.1 Alternative: INSTALL C-SFRAT
 
 1. Get C-SFRAT binary from [GitHub](https://github.com/LanceFiondella/C-SFRAT/releases/tag/v1.0). There are a Windows and a Linux executable. Download and unzip the appropriate version on your system.
 2. Run and verify its functionalities.
@@ -131,8 +130,6 @@ Submit the results for part 1 and part 2.
 
 Students will be required to submit a report on their work in the lab as a group. To be consistent, please use the template file “Assignment5-ReportTemplate.md”. If desired, feel free to rename the sections, as long as the headings are still descriptive and accurate.
 
-
-
 A portion of the grade for the lab report will be allocated to organization and clarity. The report marking scheme is as follows:
 
 |                                                                           |    |
@@ -152,6 +149,7 @@ A portion of the grade for the lab report will be allocated to organization and 
 | **Other (15)**                                                                                               |    |
 | Comparison of the results with the Part 1                                                                | 10 |
 | A discussion on similarity and difference of the two techniques. Any lessons learned in this lab?        | 5  |
+
 # 6 REFERENCES
 
 1. Open Channel Foundation: [http://www.openchannelsoftware.org/discipline/Reliability_Analysis](http://www.openchannelsoftware.org/discipline/Reliability_Analysis)
